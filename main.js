@@ -1,8 +1,10 @@
-const Discord = require('discord.js');{}
+const Discord = require('discord.js');
+const tokenid = require('./tokenid.js');
 const bot = new Discord.Client();
 
-const token = 'NjkxOTEzNTkyMDgxMjE5NjQ2.XnnMvQ._JqcjQD8f2fmfW-mbIn45lmj-HU';
 const prefix = '!';
+
+//console.log(tokenid);
 
 bot.on('ready', ()=>
 {
@@ -27,4 +29,4 @@ bot.on('guildMemberAdd', member=>{
     channel.send(`Welcome to the server, ${member}`);
 });
 
-bot.login(token);
+bot.login(tokenid);
