@@ -1,0 +1,1 @@
+Simple bot, mainly for learing purposes on my end.
