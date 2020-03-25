@@ -27,4 +27,4 @@ bot.on('guildMemberAdd', member=>{
     channel.send(`Welcome to the server, ${member}`);
 });
 
-bot.login(token);~
+bot.login(token);
